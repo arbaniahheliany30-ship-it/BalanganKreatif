@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Balangan Kreatif
 
 Balangan Kreatif adalah website informasi UMKM di Kabupaten Balangan.  
@@ -96,6 +95,3 @@ balangan_kreatif/
 ├── package-lock.json
 └── README.md
 ````
-=======
-Balangan adalah sebuah kabupaten yang berada di kalimantan selatan
->>>>>>> e6dc90dd977529ee1b8c7096b1c9eadbceabc659
