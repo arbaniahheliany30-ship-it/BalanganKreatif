@@ -26,7 +26,7 @@ function ProductPageJasa() {
       name: "Penjahit Simpati",
       description:
         "Menjahit pakaian, seragam, dan kebaya dengan hasil rapi dan cepat.",
-      img: require("assets/img/detailjasa/DetailJasa1.jpg"),
+      img: "/img/detailjasa/DetailJasa1.jpg",
       slug: "detailjasa1",
     },
     {
@@ -34,7 +34,7 @@ function ProductPageJasa() {
       color: "info",
       name: "Fran Shoes care",
       description: "Spesialis Jahit dan Cuci Sepatu.",
-      img: require("assets/img/detailjasa/DetailJasa2.jpg"),
+      img: "/img/detailjasa/DetailJasa2.jpg",
       slug: "detailjasa2",
     },
     {
@@ -42,7 +42,7 @@ function ProductPageJasa() {
       color: "primary",
       name: "Bengkel Rahmad",
       description: "Perbaikan Motor dan Servis.",
-      img: require("assets/img/detailjasa/DetailJasa3.jpg"),
+      img: "/img/detailjasa/DetailJasa3.jpg",
       slug: "detailjasa3",
     },
     {
@@ -50,7 +50,7 @@ function ProductPageJasa() {
       color: "success",
       name: "Ikhsan Service",
       description: "Servis Berbagai Alat Elektronik.",
-      img: require("assets/img/detailjasa/DetailJasa4.jpg"),
+      img: "/img/detailjasa/DetailJasa4.jpg",
       slug: "detailjasa4",
     },
     {
@@ -58,7 +58,7 @@ function ProductPageJasa() {
       color: "warning",
       name: 'KUBE "MAJU BERSAMA" PENCUCIAN KENDARAAN',
       description: "Layanan cuci cepat bersih untuk mobil & motor.",
-      img: require("assets/img/detailjasa/DetailJasa5.jpg"),
+      img: "/img/detailjasa/DetailJasa5.jpg",
       slug: "detailjasa5",
     },
   ];

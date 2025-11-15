@@ -91,7 +91,7 @@ function DetailJasa5() {
                       <img
                         alt="Story"
                         className="img img-raised"
-                        src={require("assets/img/detailjasa/DetailJasa5.jpg")}
+                        src="/img/detailjasa/DetailJasa5.jpg"
                         style={{
                           borderRadius: "14px",
                           maxHeight: "440px",
@@ -163,7 +163,7 @@ function DetailJasa5() {
                           <img
                             alt={item.title}
                             className="img-rounded img-responsive"
-                            src={require(`assets/img/detailjasa/${item.img}`)}
+                            src={`/img/detailjasa/${item.img}`}
                             style={{
                               width: "100%",
                               height: "220px",

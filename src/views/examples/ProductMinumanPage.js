@@ -28,7 +28,7 @@ function ProductMinumanPage() {
       color: "primary",
       name: "Hulo kopi",
       description: "Menyajikan kopi di Balangan.",
-      img: require("assets/img/detailminuman/DetailMinuman1.jpg"),
+      img: "/img/detailminuman/DetailMinuman1.jpg",
       slug: "detailminuman1",
     },
     {
@@ -36,7 +36,7 @@ function ProductMinumanPage() {
       color: "danger",
       name: "Tolil Drink Batumandi",
       description: "Kopi drink yang berada di Batumandi.",
-      img: require("assets/img/detailminuman/DetailMinuman2.jpg"),
+      img: "/img/detailminuman/DetailMinuman2.jpg",
       slug: "detailminuman2",
     },
     {
@@ -44,7 +44,7 @@ function ProductMinumanPage() {
       color: "success",
       name: "Juice Sultan Premium",
       description: "Jus segar premium.",
-      img: require("assets/img/detailminuman/DetailMinuman3.jpg"),
+      img: "/img/detailminuman/DetailMinuman3.jpg",
       slug: "detailminuman3",
     },
     {
@@ -52,7 +52,7 @@ function ProductMinumanPage() {
       color: "secondary",
       name: "Kini cheese tea",
       description: "Menjual Berbagai Minuman Tea Kekinian.",
-      img: require("assets/img/detailminuman/DetailMinuman4.jpg"),
+      img: "/img/detailminuman/DetailMinuman4.jpg",
       slug: "detailminuman4",
     },
   ];

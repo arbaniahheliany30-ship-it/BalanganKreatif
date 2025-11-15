@@ -27,7 +27,7 @@ function ProductPage() {
       color: "warning",
       name: "Toko Kue Niken",
       description: "Penyedia Kue Ultah, Kue Kering, Snack dll.",
-      img: require("assets/img/detailmakanan/DetailMakanan1.jpg"),
+      img: "/img/detailmakanan/DetailMakanan1.jpg",
       slug: "detailmakanan1",
     },
     {
@@ -35,7 +35,7 @@ function ProductPage() {
       color: "primary",
       name: "Salad Buah 2r",
       description: "Menjual salad buah, Asinan, Es campur dll.",
-      img: require("assets/img/detailmakanan/DetailMakanan2.jpg"),
+      img: "/img/detailmakanan/DetailMakanan2.jpg",
       slug: "detailmakanan2",
     },
     {
@@ -43,7 +43,7 @@ function ProductPage() {
       color: "info",
       name: "UMKM nisa cake & bakery",
       description: "Menjual Kue Bolu.",
-      img: require("assets/img/detailmakanan/DetailMakanan3.jpg"),
+      img: "/img/detailmakanan/DetailMakanan3.jpg",
       slug: "detailmakanan3",
     },
 
@@ -52,7 +52,7 @@ function ProductPage() {
       color: "danger",
       name: "Keripik Pisang Jajanan",
       description: "Menjual berbagai rasa keripik.",
-      img: require("assets/img/detailmakanan/menu5makanan4.jpg"),
+      img: "/img/detailmakanan/menu5makanan4.jpg",
       slug: "detailmakanan4",
     },
     {
@@ -60,7 +60,7 @@ function ProductPage() {
       color: "success",
       name: "Mandai Paman Gundul",
       description: "Aneka oleh-oleh lokal khas Balangan.",
-      img: require("assets/img/detailmakanan/DetailMakanan5.jpg"),
+      img: "/img/detailmakanan/DetailMakanan5.jpg",
       slug: "detailmakanan5",
     },
 
@@ -69,7 +69,7 @@ function ProductPage() {
       color: "info",
       name: "Bakso dan mie ayam Mang Uji",
       description: "Menjual makanan berat.",
-      img: require("assets/img/detailmakanan/DetailMakanan6.jpg"),
+      img: "/img/detailmakanan/DetailMakanan6.jpg",
       slug: "detailmakanan6",
     },
     {
@@ -77,7 +77,7 @@ function ProductPage() {
       color: "success",
       name: "Waroeng Jhuminten",
       description: "Menjual berbagai paketan murah.",
-      img: require("assets/img/detailmakanan/DetailMakanan7.jpg"),
+      img: "/img/detailmakanan/DetailMakanan7.jpg",
       slug: "detailmakanan7",
     },
   ];

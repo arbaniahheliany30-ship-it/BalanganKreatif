@@ -91,7 +91,7 @@ function DetailMinuman3() {
                       <img
                         alt="Story"
                         className="img img-raised"
-                        src={require("assets/img/detailminuman/DetailMinuman3.jpg")}
+                        src="/img/detailminuman/DetailMinuman3.jpg"
                         style={{
                           borderRadius: "14px",
                           maxHeight: "440px",
@@ -174,7 +174,7 @@ function DetailMinuman3() {
                           <img
                             alt={item.title}
                             className="img-rounded img-responsive"
-                            src={require(`assets/img/detailminuman/${item.img}`)}
+                            src={`/img/detailminuman/${item.img}`}
                             style={{
                               width: "100%",
                               height: "220px",
@@ -233,7 +233,7 @@ function DetailMinuman3() {
                           <img
                             alt={item.title}
                             className="img-rounded img-responsive"
-                            src={require(`assets/img/detailminuman/${item.img}`)}
+                            src={`/img/detailminuman/${item.img}`}
                             style={{
                               width: "100%",
                               height: "220px",

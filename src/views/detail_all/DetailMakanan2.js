@@ -91,7 +91,7 @@ function DetailMakanan2() {
                       <img
                         alt="Story"
                         className="img img-raised"
-                        src={require("assets/img/detailmakanan/DetailMakanan2.jpg")}
+                        src="/img/detailmakanan/DetailMakanan2.jpg"
                         style={{
                           borderRadius: "14px",
                           maxHeight: "440px",
@@ -177,7 +177,7 @@ function DetailMakanan2() {
                           <img
                             alt={item.title}
                             className="img-rounded img-responsive"
-                            src={require(`assets/img/detailmakanan/${item.img}`)}
+                            src={`/img/detailmakanan/${item.img}`}
                             style={{
                               width: "100%",
                               height: "220px",
@@ -186,7 +186,6 @@ function DetailMakanan2() {
                               marginBottom: "10px",
                             }}
                           />
-
                           <div
                             style={{
                               display: "flex",
@@ -241,7 +240,7 @@ function DetailMakanan2() {
                           <img
                             alt={item.title}
                             className="img-rounded img-responsive"
-                            src={require(`assets/img/detailmakanan/${item.img}`)}
+                            src={`/img/detailmakanan/${item.img}`}
                             style={{
                               width: "100%",
                               height: "220px",

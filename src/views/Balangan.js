@@ -53,7 +53,7 @@ function Balangan() {
                 penyelenggaraan pemerintahan, pada 8 April 2003 Menteri Dalam
                 Negeri Republik Indonesia melantik Pj. Bupati Balangan, yang
                 menandai dimulainya pemerintahan Kabupaten Balangan sebagai
-                daerah otonom baru.
+                daerah otonomi baru.
               </h5>
               <br />
             </Col>
@@ -64,10 +64,7 @@ function Balangan() {
               <Card
                 style={{
                   position: "relative",
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/faces/KANTOR-BUPATI-BALANGAN.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/KANTOR-BUPATI-BALANGAN.jpg)",
                   height: "300px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
@@ -131,10 +128,7 @@ function Balangan() {
               <Card
                 style={{
                   position: "relative",
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/faces/tugu-durian-1.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/tugu-durian-1.jpg)",
                   height: "300px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
@@ -195,8 +189,7 @@ function Balangan() {
               <Card
                 style={{
                   position: "relative",
-                  backgroundImage:
-                    "url(" + require("assets/img/faces/wisata1.jpg") + ")",
+                  backgroundImage: "url(/img/wisata1.jpg)",
                   height: "300px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
@@ -270,10 +263,7 @@ function Balangan() {
               <Card
                 data-background="image"
                 style={{
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/detailjasa/foto4jasa2.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/detailjasa/foto4jasa2.jpg)",
                 }}
               >
                 <CardBody>
@@ -294,10 +284,7 @@ function Balangan() {
               <Card
                 data-background="image"
                 style={{
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/detailminuman/menu1minuman4.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/detailminuman/menu1minuman4.jpg)",
                 }}
               >
                 <CardBody>
@@ -319,10 +306,7 @@ function Balangan() {
               <Card
                 data-background="image"
                 style={{
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/detailmakanan/menu2makanan7.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/detailmakanan/menu2makanan7.jpg)",
                 }}
               >
                 <CardBody>
@@ -344,10 +328,7 @@ function Balangan() {
               <Card
                 data-background="image"
                 style={{
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/detailminuman/menu2minuman1.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/detailminuman/menu2minuman1.jpg)",
                 }}
               >
                 <CardBody>
@@ -370,10 +351,7 @@ function Balangan() {
               <Card
                 data-background="image"
                 style={{
-                  backgroundImage:
-                    "url(" +
-                    require("assets/img/detailmakanan/menu6makanan4.jpg") +
-                    ")",
+                  backgroundImage: "url(/img/detailmakanan/menu6makanan4.jpg)",
                 }}
               >
                 <CardBody>
