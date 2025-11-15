@@ -34,10 +34,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
+      {/* Redirect root "/" ke /balangan */}
+      <Route path="/" element={<Navigate to="/balangan" replace />} />
+
       <Route path="/balangan" element={<Balangan />} />
       <Route path="/product-page" element={<ProductPage />} />
       <Route path="/product-minuman" element={<ProductMinumanPage />} />
       <Route path="/product-jasa" element={<ProductPageJasa />} />
+
       <Route path="/detailmakanan1" element={<DetailMakanan1 />} />
       <Route path="/detailmakanan2" element={<DetailMakanan2 />} />
       <Route path="/detailmakanan3" element={<DetailMakanan3 />} />
@@ -45,16 +49,19 @@ root.render(
       <Route path="/detailmakanan5" element={<DetailMakanan5 />} />
       <Route path="/detailmakanan6" element={<DetailMakanan6 />} />
       <Route path="/detailmakanan7" element={<DetailMakanan7 />} />
+
       <Route path="/detailminuman1" element={<DetailMinuman1 />} />
       <Route path="/detailminuman2" element={<DetailMinuman2 />} />
       <Route path="/detailminuman3" element={<DetailMinuman3 />} />
       <Route path="/detailminuman4" element={<DetailMinuman4 />} />
+
       <Route path="/detailjasa1" element={<DetailJasa1 />} />
       <Route path="/detailjasa2" element={<DetailJasa2 />} />
       <Route path="/detailjasa3" element={<DetailJasa3 />} />
       <Route path="/detailjasa4" element={<DetailJasa4 />} />
       <Route path="/detailjasa5" element={<DetailJasa5 />} />
 
+      {/* Fallback */}
       <Route path="*" element={<Navigate to="/balangan" replace />} />
     </Routes>
   </BrowserRouter>

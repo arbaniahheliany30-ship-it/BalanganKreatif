@@ -21,7 +21,7 @@ function LandingPageHeader({ onJelajahi }) {
       return () => window.removeEventListener("scroll", updateScroll);
     }
 
-    // 🚨 Tambahkan ini supaya Netlify tidak error
+    //  Tambahkan ini supaya Netlify tidak error
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -31,7 +31,7 @@ function LandingPageHeader({ onJelajahi }) {
         className="page-header"
         ref={pageHeader}
         style={{
-          backgroundImage: "url(/img/Monumen_Perjuangan_Paringin.jpeg)",
+          backgroundImage: "url(/img/Monumen_Perjuangan_Paringin.jpg)",
         }}
       >
         <div className="filter" />
