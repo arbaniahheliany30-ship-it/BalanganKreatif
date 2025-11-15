@@ -9,7 +9,7 @@ function LandingPageHeader({ onJelajahi }) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
 
-        // 🚨 FIX: CEK DULU BIAR NGGAK ERROR
+        // Cek dulu biar aman
         if (!pageHeader.current) return;
 
         pageHeader.current.style.transform =
@@ -20,6 +20,9 @@ function LandingPageHeader({ onJelajahi }) {
 
       return () => window.removeEventListener("scroll", updateScroll);
     }
+
+    // 🚨 Tambahkan ini supaya Netlify tidak error
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

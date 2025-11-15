@@ -11,7 +11,6 @@ import {
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
   Nav,
   Container,
   UncontrolledTooltip,
@@ -36,6 +35,7 @@ function MultiDropdownNavbar() {
         setNavbarColor("navbar-transparent");
       }
     };
+
     window.addEventListener("scroll", updateNavbarColor);
     return () => window.removeEventListener("scroll", updateNavbarColor);
   }, []);
