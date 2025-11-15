@@ -94,4 +94,7 @@ balangan_kreatif/
 ├── package.json
 ├── package-lock.json
 └── README.md
+<<<<<<< HEAD
 ````
+=======
+>>>>>>> 981f7c762198cfd9f063d7981a1fae421e1fd687
