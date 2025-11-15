@@ -14,6 +14,17 @@ import {
 import MultiDropdownNavbar from "components/Navbars/MultiDropdownNavbar.js";
 import LandingPageHeader from "components/Headers/BalanganHeader.js";
 
+window.onerror = function (message, source, lineno, colno, error) {
+  alert(
+    "ERROR TERDETEKSI:\n" +
+      message +
+      "\n\nFile: " +
+      source +
+      "\nLine: " +
+      lineno
+  );
+};
+
 function Balangan() {
   document.documentElement.classList.remove("nav-open");
 
@@ -300,7 +311,7 @@ function Balangan() {
             </Col>
           </Row>
 
-          {/* --- Lanjut Produk Unggulan Kedua --- */}
+          {/*Lanjut Produk Unggulan Kedua*/}
           <Row>
             <Col md="3">
               <Card

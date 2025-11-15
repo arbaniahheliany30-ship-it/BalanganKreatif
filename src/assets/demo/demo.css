@@ -3258,106 +3258,73 @@ pre.prettyprint {
   transition: top 0.5s ease-in-out;
   width: 100%;
 }
-
 .nav-up {
   top: -80px;
 }
 
-@-webkit-keyframes Floatingy {
-  from {
-    -webkit-transform: translate(0, 0px);
+/* Animasi Floatingy (gerak kanan-kiri kecil) */
+@keyframes Floatingy {
+  0% {
+    transform: translate(0, 0);
   }
   65% {
-    -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);
   }
-  to {
-    -webkit-transform: translate(0, 0px);
+  100% {
+    transform: translate(0, 0);
   }
 }
 
-@-moz-keyframes Floatingy {
-  from {
-    -moz-transform: translate(0, 0px);
+/* Animasi Floatingx (gerak besar ke kanan-kiri) */
+@keyframes Floatingx {
+  0% {
+    transform: translate(50px, 0);
   }
   65% {
-    -moz-transform: translate(50px, 0);
+    transform: translate(0, 0);
   }
-  to {
-    -moz-transform: translate(0, 0px);
+  100% {
+    transform: translate(50px, 0);
   }
 }
 
-@-webkit-keyframes Floatingx {
-  from {
-    -webkit-transform: translate(50px, 0px);
-  }
-  65% {
-    -webkit-transform: translate(0, 0);
-  }
-  to {
-    -webkit-transform: translate(50px, 0px);
-  }
-}
-
-@-moz-keyframes Floatingx {
-  from {
-    -moz-transform: translate(50px, 0px);
-  }
-  65% {
-    -moz-transform: translate(0, 0);
-  }
-  to {
-    -moz-transform: translate(50px, 0px);
-  }
-}
-
+/* Elemen yang memakai Floatingy */
 .table-img,
 .coloured-card-img,
 .coloured-card-btn-img,
 .pin-btn-img,
 .share-btn-img,
 .social-img {
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: ease-in-out;
-  -webkit-animation-name: Floatingy;
-  -moz-animation-name: Floatingy;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: Floatingy;
   float: left;
 }
 
+/* Durasi masing-masing elemen */
 .table-img {
-  -webkit-animation-duration: 14s;
-  -moz-animation-duration: 14s;
-  -webkit-animation-name: Floatingx;
-  -moz-animation-name: Floatingx;
+  animation-duration: 14s;
+  animation-name: Floatingx;
 }
 
 .coloured-card-img {
-  -webkit-animation-duration: 10s;
-  -moz-animation-duration: 10s;
+  animation-duration: 10s;
 }
 
 .coloured-card-btn-img {
-  -webkit-animation-duration: 18s;
-  -moz-animation-duration: 18s;
+  animation-duration: 18s;
 }
 
 .pin-btn-img {
-  -webkit-animation-duration: 15s;
-  -moz-animation-duration: 15s;
-  -webkit-animation-name: Floatingx;
-  -moz-animation-name: Floatingx;
+  animation-duration: 15s;
+  animation-name: Floatingx;
 }
 
 .share-btn-img {
-  -webkit-animation-duration: 11s;
-  -moz-animation-duration: 11s;
+  animation-duration: 11s;
 }
 
 .social-img {
-  -webkit-animation-duration: 16s;
-  -moz-animation-duration: 16s;
-  -webkit-animation-name: Floatingx;
-  -moz-animation-name: Floatingx;
+  animation-duration: 16s;
+  animation-name: Floatingx;
 }
