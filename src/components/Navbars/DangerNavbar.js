@@ -39,7 +39,7 @@ function WhiteNavbar() {
       <Navbar className="fixed-top" expand="lg" id="navbar-main" color="danger">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand id="navbar-brand" to="/balangan-kreatif" tag={Link}>
+            <NavbarBrand id="navbar-brand" to="/" tag={Link}>
               BalanganKreatif
             </NavbarBrand>
 
@@ -63,7 +63,7 @@ function WhiteNavbar() {
             <Nav className="ml-auto" navbar>
               {/* Beranda */}
               <NavItem>
-                <Link className="nav-link" to="/balangan-kreatif">
+                <Link className="nav-link" to="/">
                   Beranda
                 </Link>
               </NavItem>

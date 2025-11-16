@@ -92,7 +92,7 @@ function ColorNavbar() {
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link className={`nav-link ${textColor}`} to="/balangan">
+                <Link className={`nav-link ${textColor}`} to="/">
                   Beranda
                 </Link>
               </NavItem>

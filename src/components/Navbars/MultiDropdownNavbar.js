@@ -98,7 +98,7 @@ function MultiDropdownNavbar() {
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link className="nav-link" to="/balangan">
+                <Link className="nav-link" to="/">
                   Beranda
                 </Link>
               </NavItem>

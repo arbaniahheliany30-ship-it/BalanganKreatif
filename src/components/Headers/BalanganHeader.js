@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container } from "reactstrap";
 
-function LandingPageHeader({ onJelajahi }) {
+function BalanganHeader({ onJelajahi }) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -62,4 +62,4 @@ function LandingPageHeader({ onJelajahi }) {
   );
 }
 
-export default LandingPageHeader;
+export default BalanganHeader;
