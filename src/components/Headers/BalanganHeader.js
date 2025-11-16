@@ -31,7 +31,7 @@ function LandingPageHeader({ onJelajahi }) {
         className="page-header"
         ref={pageHeader}
         style={{
-          backgroundImage: "url(/img/Monumen_Perjuangan_Paringin.jpg)",
+          backgroundImage: "url(/img/monumen_perjuangan_paringin.jpg)",
         }}
       >
         <div className="filter" />

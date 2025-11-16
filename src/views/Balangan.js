@@ -64,7 +64,7 @@ function Balangan() {
               <Card
                 style={{
                   position: "relative",
-                  backgroundImage: "url(/img/KANTOR-BUPATI-BALANGAN.jpg)",
+                  backgroundImage: "url(/img/kantor-bupati-balangan.jpg)",
                   height: "300px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",

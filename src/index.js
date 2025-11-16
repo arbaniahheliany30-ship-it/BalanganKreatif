@@ -34,9 +34,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      {/* Redirect root "/" ke /balangan */}
-      <Route path="*" element={<Navigate to="/" replace />} />
-
       <Route path="/" element={<Balangan />} />
       <Route path="/product-page" element={<ProductPage />} />
       <Route path="/product-minuman" element={<ProductMinumanPage />} />
@@ -61,7 +58,7 @@ root.render(
       <Route path="/detailjasa4" element={<DetailJasa4 />} />
       <Route path="/detailjasa5" element={<DetailJasa5 />} />
 
-      {/* Fallback */}
+      {/* fallback terakhir */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
