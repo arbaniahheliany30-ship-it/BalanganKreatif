@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 import MultiDropdownNavbar from "components/Navbars/MultiDropdownNavbar.js";
-import LandingPageHeader from "components/Headers/BalanganHeader.js";
+import BalanganHeader from "components/Headers/BalanganHeader";
 
 function Balangan() {
   document.documentElement.classList.remove("nav-open");
@@ -36,7 +36,7 @@ function Balangan() {
       <MultiDropdownNavbar />
 
       {/* Header menerima fungsi scroll */}
-      <LandingPageHeader onJelajahi={scrollToProduk} />
+      <BalanganHeader onJelajahi={scrollToProduk} />
 
       <div className="wrapper bg-cream">
         <Container>
