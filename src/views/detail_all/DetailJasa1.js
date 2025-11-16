@@ -233,7 +233,6 @@ function DetailJasa1() {
                               marginBottom: "10px",
                             }}
                           />
-
                           <div
                             style={{
                               display: "flex",

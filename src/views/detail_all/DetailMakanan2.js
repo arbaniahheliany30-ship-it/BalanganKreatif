@@ -249,7 +249,6 @@ function DetailMakanan2() {
                               marginBottom: "10px",
                             }}
                           />
-
                           <div
                             style={{
                               display: "flex",

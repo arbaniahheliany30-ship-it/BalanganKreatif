@@ -6,7 +6,6 @@
 @import "balangan-kreatif/plugins/plugin-nouislider";
 @import "balangan-kreatif/plugins/plugin-bootstrap-select";
 @import "balangan-kreatif/plugins/plugin-tagsinput";
-@import "balangan-kreatif/plugins/plugin-fileupload";
 @import "balangan-kreatif/plugins/plugin-datetimepicker";
 
 // Core CSS
@@ -44,23 +43,6 @@
 
 // cards
 @import "balangan-kreatif/cards";
-@import "balangan-kreatif/cards/card-background";
-@import "balangan-kreatif/cards/card-blog";
-@import "balangan-kreatif/cards/card-contact";
-@import "balangan-kreatif/cards/card-image";
-@import "balangan-kreatif/cards/card-register";
-@import "balangan-kreatif/cards/card-plain";
-@import "balangan-kreatif/cards/card-pricing";
-@import "balangan-kreatif/cards/card-profile";
-@import "balangan-kreatif/cards/card-product";
-@import "balangan-kreatif/cards/card-signup";
-@import "balangan-kreatif/cards/card-testimonials";
-
-// For gallery, using PhotoSwipe
-@import "balangan-kreatif/plugins/photo-swipe/main.scss";
-@import "balangan-kreatif/plugins/photo-swipe/default-skin.scss";
-@import "balangan-kreatif/plugins/photo-swipe/gallery.scss";
-@import "balangan-kreatif/plugins/photo-swipe/main.scss";
 
 // Isometric cards plugin
 @import "balangan-kreatif/plugins/plugin-isometricGrids";
@@ -71,9 +53,6 @@
 @import "balangan-kreatif/sections-extend";
 
 @import "balangan-kreatif/responsive";
-
-// Nucleo Icons
-@import "balangan-kreatif/nucleo-icons";
 
 // React Differences
 @import "react/react-differences";

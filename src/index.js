@@ -35,9 +35,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       {/* Redirect root "/" ke /balangan */}
-      <Route path="/" element={<Navigate to="/balangan" replace />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
 
-      <Route path="/balangan" element={<Balangan />} />
+      <Route path="/" element={<Balangan />} />
       <Route path="/product-page" element={<ProductPage />} />
       <Route path="/product-minuman" element={<ProductMinumanPage />} />
       <Route path="/product-jasa" element={<ProductPageJasa />} />
@@ -62,7 +62,7 @@ root.render(
       <Route path="/detailjasa5" element={<DetailJasa5 />} />
 
       {/* Fallback */}
-      <Route path="*" element={<Navigate to="/balangan" replace />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
 );

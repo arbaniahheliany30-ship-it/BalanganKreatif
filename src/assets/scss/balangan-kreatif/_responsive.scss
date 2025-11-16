@@ -958,46 +958,46 @@
       font-size: 7em;
     }
     .title-brand {
-      max-width: 650px;
+        max-width: 650px;
     }
-  }
+    }
 }
 
 @media (max-width: 1200px) {
-  .presentation .section-images .image img {
+    .presentation .section-images .image img {
     width: 100%;
-  }
+    }
 }
 
 @media screen and (max-width: 374px) {
-  .footer.footer-big {
+    .footer.footer-big {
     .copyright {
-      .pull-left,
-      .pull-right {
+        .pull-left,
+        .pull-right {
         float: none !important;
-      }
+        }
     }
-  }
-  .full-screen.login {
+    }
+    .full-screen.login {
     .card.card-register {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .demo-footer {
-      margin-left: -15px;
+        margin-left: -15px;
     }
-  }
-  .about-us {
+    }
+    .about-us {
     .header-wrapper {
-      height: auto !important;
+        height: auto !important;
     }
-  }
-  .presentation-page {
+    }
+    .presentation-page {
     .section-content {
-      .image-container {
+        .image-container {
         .area-img {
-          max-width: 170px !important;
+            max-width: 170px !important;
         }
-      }
+        }
     }
-  }
+    }
 }
